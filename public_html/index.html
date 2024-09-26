@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+    <title>Anthony Pink - Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./images/logoap.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I am <strong>Anthony Pink</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            html email developer
+        </p>
+        <img src="./images/hero.jpg" alt="" class="intro__img">
+    </section>
+
+    <!--My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>I create fully responsive emails. My process follows Discover, Idea, Design, Develop, Test and Launch
+                </p>
+            </div><!-- /service-->
+            <div class="service">
+                <!-- <h3>E-Commerce</h3>
+                <p>I have a complete foundation in the arts. Coming up with design ideas is what i do.</p> -->
+            </div><!-- /service-->
+            <div class="service">
+                <h3>Responsive Websites</h3>
+                <!-- <p>Responsive modern websites are my thing. Bringing designs to life quickly is my personal pastime.</p> -->
+                <p>Building responsive websites is at the fore front. Bringing designs to launch is my passion</p>
+            </div><!-- /service-->
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <div class="skills__content">
+
+                <div class="skills__item">
+                    <img src="./images/html.svg" alt="html">
+                    <p>HTML</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./images/css-color.svg" alt="css">
+                    <p>CSS</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./images/sass.svg" alt="sass">
+                    <p>SASS</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./images/bootstrap.svg" alt="">
+                    <p>Bootsrap</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./images/js.svg" alt="">
+                    <p>Javascript</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./images/figma.svg" alt="figma">
+                    <p>Figma</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./images/photoshop.svg" alt="photoshop">
+                    <p>Photoshop</p>
+                </div>
+                <div class="skills__item">
+                    <img src="./images/mailchimp.svg" alt="mailchimp">
+                    <p>Mailchimp</p>
+                </div>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer located in London</p>
+
+        <div class="about-me__body">
+            <h3>Your Success Is My Success</h3>
+            <p>Do you want to send your customers beautiful mobile responsive emails that render in all email clients ?
+            </p>
+            <p>Oh, your in just the right spot.</p>
+            <p>That's where I come in.</p>
+            <p>I'm Anthony, and I specialize in developing html emails and landing pages. I pay close attention to
+                detail when translating design into html email documents, that will render in all email clients,
+                including Outlook and Windows mail clients. Using the skills such as html, CSS, media queries and
+                knowledge of Email Service Providers(ESP) such as Mailchimp, I look forward to helping your company
+                achieve its client satisfaction.</p>
+            <div class="certificate"><img src="./images/certificate-email.jpg" class="certificate"
+                    alt="advanced email marketing certificate"></div>
+        </div>
+
+        <img src="./images/welcome.jpg" alt="" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of html emails and landing pages.</p>
+
+        <div class="category-head">
+            <ul class="category-list">
+                <div class="category-title active" id="all">
+                    <li>All</li>
+                </div>
+                <div class="category-title" id="promotional">
+                    <li>Promotional</li>
+                </div>
+                <div class="category-title" id="newsletter">
+                    <li>Newsletter</li>
+                </div>
+                <div class="category-title" id="transactional">
+                    <li>Interactive Emails</li>
+                </div>
+                <div class="category-title" id="webpage">
+                    <li>Landing Pages</li>
+                </div>
+            </ul>
+        </div>
+        <!-- ================================== -->
+        <div class="project-container">
+            <div class="project-card all webpage">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://payapi-tonypin.vercel.app/" target="_blank"><img src="./portimages/payapi.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Multipage site</h3>
+                <p class="subtext">Created using a design from Frontend Mentor with
+                    React, React router V6, CSS Modules, Formik-Form Validation</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/multipage-payapi" target="_blank">code</a><a
+                        href="https://payapi-tonypin.vercel.app/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all webpage">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/insure-prog/" target=" _blank"><img src="./portimages/insure.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Insure page</h3>
+                <p class="subtext">Website produced using html, css, and javascript design taken from Frontend Mentor
+                </p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/insure-prog" target="_blank">code</a><a
+                        href="https://tonypin.github.io/insure-prog/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all webpage">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/studio-landingpage/" target="_blank"><img
+                            src="./portimages/vr.png" alt="" class="p-img"></a>
+                </div>
+                <h3>Loopstudio page</h3>
+                <p class="subtext">Website produced using html, css, and javascript design taken from Frontend Mentor
+                </p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/studio-landingpage" target="_blank">code</a><a
+                        href="https://tonypin.github.io/studio-landingpage/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all webpage">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/flyo-prog2/" target="_blank"><img src="./portimages/flyo.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Flyo page</h3>
+                <p class="subtext">Website produced using html, css, SASS and javascript email validation, design taken
+                    from Frontend
+                    Mentor</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/flyo-prog2" target="_blank">code</a><a
+                        href="https://tonypin.github.io/flyo-prog2/" target="_blank">view</a>
+                </div>
+            </div>
+            <!-- END WEBPAGE -->
+            <div class="project-card all promotional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/fictional-coffeeshop/" target="_blank"><img
+                            src="./portimages/coffee.png" alt="" class="p-img"></a>
+                </div>
+                <h3>Coffee</h3>
+                <p class="subtext">Designed and coded fictional coffee shop using Figma, HTML and CSS</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/fictional-coffeeshop/blob/main/index.html"
+                        target="_blank">code</a><a
+                        href="https://www.figma.com/proto/qBGXpA27R4HY06mhLAH2nO/Coffee-Email-Template?node-id=7%3A168&scaling=min-zoom&page-id=0%3A1"
+                        target="_blank">design</a><a href="https://tonypin.github.io/fictional-coffeeshop/"
+                        target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all promotional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/sumgroup/" target="_blank"><img src="./portimages/sumgroup.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Sumgroup</h3>
+                <p class="subtext">Created for startup company using HTML and CSS</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/sumgroup/blob/main/index.html" target="_blank">code</a>
+                    <a href="https://tonypin.github.io/sumgroup/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all promotional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/promo01/" target="_blank"><img src="./portimages/promo1.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Klarna</h3>
+                <p class="subtext">Remade a promotional email from Klarna using HTML and CSS.</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/promo01/blob/main/index.html" target="_blank">code</a><a
+                        href="https://tonypin.github.io/promo01/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all promotional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/promo02/" target="_blank"><img src="./portimages/promo2.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Lane Bryant</h3>
+                <p class="subtext">Remade a promotional email design from Lane Bryant using HTML and CSS.</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/promo02/blob/main/index.html" target="_blank">code</a><a
+                        href="https://tonypin.github.io/promo02/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all promotional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/promo03/" target="_blank"><img src="./portimages/promo3.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>NOW TV</h3>
+                <p class="subtext">Remade a promotional email design from NOW TV using HTML and CSS.</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/promo03/blob/main/index.html" target="_blank">code</a><a
+                        href="https://tonypin.github.io/promo03/" target="_blank">view</a>
+                </div>
+            </div>
+            <!-- END promo -->
+            <div class="project-card all newsletter">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/newsletter01/" target="_blank"><img src="./portimages/news1.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Apple News</h3>
+                <p class="subtext">Remade a newsletter email from Apple News using HTML and CSS.</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/newsletter01" target="_blank">code</a><a
+                        href="https://tonypin.github.io/newsletter01/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all newsletter">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/newsletter02/" target="_blank"><img src="./portimages/news2.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Xbox</h3>
+                <p class="subtext">Remade a newsletter email from xbox using HTML and CSS.</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/newsletter02" target="_blank">code</a><a
+                        href="https://tonypin.github.io/newsletter02/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all newsletter">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/newsletter03/" target="_blank"><img src="./portimages/news3.png"
+                            alt="" class="p-img"></a>
+                </div>
+                <h3>Wellness Wire</h3>
+                <p class="subtext">Remade a newsletter email from Wellness Wire using HTML and CSS.</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/newsletter03" target="_blank">code</a><a
+                        href="https://tonypin.github.io/newsletter03/" target="_blank">view</a>
+                </div>
+            </div>
+            <!-- END news -->
+            <div class="project-card all transactional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/transaction01/" target="_blank"><img
+                            src="./portimages/fashion.png" alt="" class="p-img"></a>
+                </div>
+                <h3>Modest fashion</h3>
+                <p class="subtext">Email displaying miltiple pages</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/fashion" target="_blank">code</a><a
+                        href="https://tonypin.github.io/fashion/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all transactional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://github.com/tonyPin/quiz" target="_blank"><img
+                            src="./portimages/quiz.png" alt="" class="p-img"></a>
+                </div>
+                <h3>Quiz</h3>
+                <p class="subtext">Quiz to unlock discount</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/quiz" target="_blank">code</a><a
+                        href="https://tonypin.github.io/quiz/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all transactional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/holiday/" target="_blank"><img
+                            src="./portimages/holiday.png" alt="" class="p-img"></a>
+                </div>
+                <h3>Horizon Travel</h3>
+                <p class="subtext">Email showcasing amazing destinations</p>
+
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/holiday" target="_blank">code</a><a
+                        href="https://tonypin.github.io/holiday/" target="_blank">view</a>
+                </div>
+            </div>
+            <div class="project-card all transactional">
+                <div class="img-window">
+                    <div class="p-browser">
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                        <div class="p-circle"></div>
+                    </div>
+                    <a href="https://tonypin.github.io/digitalboost/" target="_blank"><img
+                            src="./portimages/digitalboost.png" alt="" class="p-img"></a>
+                </div>
+                <h3>Digitalboost Solutions</h3>
+                <p class="subtext">Digital agency showcasing its services</p>
+                <hr>
+                <div class="links">
+                    <a href="https://github.com/tonyPin/digitalboost" target="_blank">code</a><a
+                        href="https://tonypin.github.io/digitalboost/" target="_blank">view</a>
+                </div>
+            </div>
+            <!-- END transactional -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:tony12pink@gmail.com" class="footer__link">tony12pink@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/tonyPin" target="_blank">
+
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/feed/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
